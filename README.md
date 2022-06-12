@@ -20,14 +20,20 @@ C++:
 Partially adapted from wxWidgets setup documentation
 
 Windows:
-Download Visual Studio Community 2019 (https://visualstudio.microsoft.com)
-Install the module "Desktop development with C++" in the Visual Studio Installer
-Clone this repository locally
-Download wxWidgets (https://www.wxwidgets.org/downloads/ , select Download Windows Binaries)
-Select Visual Studio 2015/2017/2019
-Download Header Files and 64-Bit (x86_64)/Release DLLs to a known location (defined as $wx in these instructions)
-Install 7-Zip 19.00 for Windows: https://www.7-zip.org/a/7z1900-x64.exe
-In folder $wx, use 7-Zip to extract the files from the downloaded .7z files into $wx
-Open Visual Studio Community 2019
-Select Open a project or solution
-Select the file $wx\cpp\RecursiveTicTacToe\RecursiveTicTacToe.sln
+
+1. Download Visual Studio Community 2019 (https://visualstudio.microsoft.com)
+2. Install the module "Desktop development with C++" in the Visual Studio Installer
+3. Clone this repository locally
+4. Download wxWidgets (https://www.wxwidgets.org/downloads/ , select Download Windows Binaries)
+5. Select Visual Studio 2015/2017/2019
+6. Download Header Files and 64-Bit (x86_64)/Release DLLs to a known location (defined as $wx in these instructions)
+7. Install 7-Zip 19.00 for Windows: https://www.7-zip.org/a/7z1900-x64.exe
+8. In folder $wx, use 7-Zip to extract the files from the downloaded .7z files into $wx
+9. Open Visual Studio Community 2019
+10. Select Open a project or solution
+11. Select the file $wx\cpp\RecursiveTicTacToe\RecursiveTicTacToe.sln
+12. [Coming soon]
+
+Linux:
+
+1. [Coming soon]
