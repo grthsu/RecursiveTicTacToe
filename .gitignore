@@ -1,1 +1,5 @@
 *.o
+cpp/RecursiveTicTacToe/.vs
+*Debug
+*Release
+*x64

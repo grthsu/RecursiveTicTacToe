@@ -24,15 +24,22 @@ Windows:
 1. Download Visual Studio Community 2019 (https://visualstudio.microsoft.com)
 2. Install the module "Desktop development with C++" in the Visual Studio Installer
 3. Clone this repository locally
-4. Download wxWidgets (https://www.wxwidgets.org/downloads/ , select Download Windows Binaries)
-5. Select Visual Studio 2015/2017/2019/2022
-6. Download Header Files, 32-Bit (x86)/Development Files 64-Bit (x86_64)/Development Files to a known location (defined as $wx in these instructions)
-7. Install 7-Zip 19.00 for Windows: https://www.7-zip.org/a/7z1900-x64.exe
-8. In folder $wx, use 7-Zip to extract the files from the downloaded .7z files into $wx
-9. Open Visual Studio Community 2019
-10. Select Open a project or solution
-11. Select the file cpp\RecursiveTicTacToe\RecursiveTicTacToe.sln in this repository.
-12. [Coming soon]
+4. Download wxWidgets (https://www.wxwidgets.org/downloads/ , select Windows Installer)
+5. Run the downloaded installer to install the source files to $wx.
+6. Open Visual Studio Community 2019
+7. Select Open a project or solution
+8. Select the file cpp\RecursiveTicTacToe\RecursiveTicTacToe.sln in this repository.
+9. Navigate to Tools/Command Line and select Developer Command Prompt
+10. Navigate to $wx\build\msw in the opened terminal
+11. Run nmake /f makefile.vc
+12. Run nmake /f makefile.vc BUILD=release
+13. Close the terminal
+14. Open the solution's Property Manager
+15. Select RecursiveTicTacToe and click Add Existing Property Sheet
+16. Navigate to $wx and select wxwidgets.props
+
+You are now ready to build this repository!
+
 
 Linux:
 
